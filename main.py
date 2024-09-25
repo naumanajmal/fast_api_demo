@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Request, BackgroundTasks
-from .tasks import clone_and_deploy
 app = FastAPI()
 
 
